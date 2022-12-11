@@ -1,0 +1,38 @@
+Arguments: 
+  /Users/juliocosta/.nvm/versions/node/v16.17.0/bin/node /opt/homebrew/bin/yarn init
+
+PATH: 
+  /opt/homebrew/opt/php@8.1/sbin:/opt/homebrew/opt/php@8.1/bin:/Users/juliocosta/.nvm/versions/node/v16.17.0/bin:/opt/local/bin:/opt/local/sbin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/juliocosta/Library/Android/sdk/emulator:/Users/juliocosta/Library/Android/sdk/platform-tools:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Users/juliocosta/.rvm/bin:/Applications/Visual StudioxOQ 
+  Code.app/Contents/Resources/app/bin
+  :/Users/juliocosta/Android/Sdk/emulator:/Users/juliocosta/Android/Sdk/tools:/Users/juliocosta/Android/Sdk/tools/bin:/Users/juliocosta/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:137150:13)
+      at Interface.emit (node:events:513:28)
+      at Interface._ttyWrite (node:readline:1085:16)
+      at ReadStream.onkeypress (node:readline:291:10)
+      at ReadStream.emit (node:events:513:28)
+      at emitKeys (node:internal/readline/utils:357:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:61:36)
+      at ReadStream.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:315:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
